@@ -103,7 +103,7 @@ Set-CalendarProcessing @paramSetCalendarProcessing
 $paramSetMsolUser = @{
    UserPrincipalName    = $RoomUserPrincipalName
    PasswordNeverExpires = $true
-   UsageLocation        = 'DE'
+   UsageLocation        = 'SE'
 }
 Set-MsolUser @paramSetMsolUser
 #endregion SetMsolUser
